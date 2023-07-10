@@ -15,6 +15,19 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --aa-text-color-rgb: 183,192,199 !important;
+  --aa-primary-color-rgb: 51, 94, 176 !important;
+  --aa-muted-color-rgb: 51, 94, 176 !important;
+  --aa-input-background-color-rgb: 0,3,9 !important;
+  --aa-background-color-rgb: 21,24,42 !important;
+  --aa-selected-color-rgb: 146,138,255 !important;
+  --aa-selected-color-alpha: 0.25 !important;
+  --aa-description-highlight-background-color-rgb: 0 255 255 !important;
+  --aa-description-highlight-background-color-alpha: 0.25 !important;
+  --aa-panel-shadow: inset 1px 1px 0 0 #2c2e40,0 3px 8px 0 #000309 !important;
+  --aa-scrollbar-track-background-color-rgb: 44,46,64 !important;
+  --aa-muted-color-alpha: 1 !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +40,19 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --aa-text-color-rgb: 183,192,199 !important;
+  --aa-primary-color-rgb: 51, 94, 176 !important;
+  --aa-muted-color-rgb: 51, 94, 176 !important;
+  --aa-input-background-color-rgb: 0,3,9 !important;
+  --aa-background-color-rgb: 21,24,42 !important;
+  --aa-selected-color-rgb: 146,138,255 !important;
+  --aa-selected-color-alpha: 0.25 !important;
+  --aa-description-highlight-background-color-rgb: 0 255 255 !important;
+  --aa-description-highlight-background-color-alpha: 0.25 !important;
+  --aa-panel-shadow: inset 1px 1px 0 0 #2c2e40,0 3px 8px 0 #000309 !important;
+  --aa-scrollbar-track-background-color-rgb: 44,46,64 !important;
+  --aa-muted-color-alpha: 1 !important;
 }
 
 h1 {

@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
       title={`Home`}
       description="Official GoXLR-Utility Documentation">
       <HomepageHeader />
-      <main>
+      <main className="mainMargin">
         <HomepageFeatures />
       </main>
     </Layout>

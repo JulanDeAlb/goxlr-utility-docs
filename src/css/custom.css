@@ -75,6 +75,10 @@ h2 {
   white-space: nowrap;
 }
 
+.mainMargin {
+  margin: auto 0;
+}
+
 .navbar__item {
   font-size: 1.1rem;
   font-weight: 700;

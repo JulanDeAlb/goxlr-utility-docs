@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://goxlr-on-linux.github.io/goxlr-utility-docs/blog</id>
+    <title>GoXLR Utility Blog</title>
+    <updated>2023-07-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://goxlr-on-linux.github.io/goxlr-utility-docs/blog"/>
+    <subtitle>GoXLR Utility Blog</subtitle>
+    <icon>https://goxlr-on-linux.github.io/goxlr-utility-docs/img/goxlr-utiltiy.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the official Doc's]]></title>
+        <id>https://goxlr-on-linux.github.io/goxlr-utility-docs/blog/welcome</id>
+        <link href="https://goxlr-on-linux.github.io/goxlr-utility-docs/blog/welcome"/>
+        <updated>2023-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the official GoXLR-Utility Doc's.]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welcome-to-the-official-goxlr-utility-docs">Welcome to the official GoXLR-Utility Doc's.<a href="#welcome-to-the-official-goxlr-utility-docs" class="hash-link" aria-label="Direct link to Welcome to the official GoXLR-Utility Doc's." title="Direct link to Welcome to the official GoXLR-Utility Doc's.">​</a></h2><p><strong>We are pleased to announce that we now have official doc's. 🎉🎉🎉<br>
+Here you will find everything about the installation and development of GoXLR-Utility.</strong></p>]]></content>
+        <author>
+            <name>JulanDeAlb</name>
+            <uri>https://github.com/julandealb</uri>
+        </author>
+        <category label="documentation" term="documentation"/>
+        <category label="docs" term="docs"/>
+    </entry>
+</feed>

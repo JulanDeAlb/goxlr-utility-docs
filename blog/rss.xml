@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>GoXLR Utility Blog</title>
+        <link>https://goxlr-on-linux.github.io/goxlr-utility-docs/blog</link>
+        <description>GoXLR Utility Blog</description>
+        <lastBuildDate>Tue, 11 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to the official Doc's]]></title>
+            <link>https://goxlr-on-linux.github.io/goxlr-utility-docs/blog/welcome</link>
+            <guid>https://goxlr-on-linux.github.io/goxlr-utility-docs/blog/welcome</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the official GoXLR-Utility Doc's.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="welcome-to-the-official-goxlr-utility-docs">Welcome to the official GoXLR-Utility Doc's.<a href="#welcome-to-the-official-goxlr-utility-docs" class="hash-link" aria-label="Direct link to Welcome to the official GoXLR-Utility Doc's." title="Direct link to Welcome to the official GoXLR-Utility Doc's.">​</a></h2><p><strong>We are pleased to announce that we now have official doc's. 🎉🎉🎉<br>
+Here you will find everything about the installation and development of GoXLR-Utility.</strong></p>]]></content:encoded>
+            <category>documentation</category>
+            <category>docs</category>
+        </item>
+    </channel>
+</rss>

@@ -19,6 +19,7 @@ and control a TC-Helicon GoXLR or GoXLR Mini on Linux, MacOS and Windows.**
 - Shutdown Actions, including saving profiles and loading other profiles / lighting
 - Multiple Device Support. Run more than one GoXLR on one PC
 - A CLI and API for basic or advanced scripting and automation
+- [StreamDeck Integration](https://github.com/FrostyCoolSlug/goxlr-utility-streamdeck) (MacOS, Windows only)
 
 ## Disclaimer
 

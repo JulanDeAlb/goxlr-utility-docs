@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgoxlr_utiltiy_docs=self.webpackChunkgoxlr_utiltiy_docs||[]).push([[6026],{9828:l=>{l.exports=JSON.parse('{"label":"docs","permalink":"/goxlr-utility-docs/blog/tags/docs","allTagsPath":"/goxlr-utility-docs/blog/tags","count":1}')}}]);

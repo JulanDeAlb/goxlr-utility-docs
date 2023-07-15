@@ -5,7 +5,6 @@ sidebar_position: 1
 ---
 
 # Getting started
-
 The GoXLR Utility is an 'API Driven' application, meaning all configuration happens via an API.<br/>
 The `goxlr-client` binary and Web UI are examples of API clients, and the message format is simple JSON.
 

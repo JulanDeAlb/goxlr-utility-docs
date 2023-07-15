@@ -5,14 +5,12 @@ sidebar_position: 5
 ---
 
 # Messaging
-
 While not formally documented (yet!),
 determining the JSON messages to send across to the GoXLR is relatively straight forward.
 All of the commands and responses are defined in the `ipc` crates [lib.rs](https://github.com/GoXLR-on-Linux/goxlr-utility/blob/main/ipc/src/lib.rs)
 file, DaemonRequest are the requests, and `DaemonResponse` are the possible responses.
 
 ## Sending
-
 All requests should be derived from the [DaemonRequest](https://github.com/GoXLR-on-Linux/goxlr-utility/blob/f9d2635e8692e6b8fb008155dc08c5fafd8cd353/ipc/src/lib.rs#L21)
 enum, if you send a request that's not listed there, or is of an incorrect format,
 an error will be returned. Serialization of the enums is straight forward,
@@ -52,7 +50,6 @@ and a [ChannelName](https://github.com/GoXLR-on-Linux/goxlr-utility/blob/f9d2635
 ```
 
 ## Receiving
-
 Serialization of responses tends to behave in exactly the same way as serializing requests,
 except they're based on the [DaemonResponse](https://github.com/GoXLR-on-Linux/goxlr-utility/blob/f9d2635e8692e6b8fb008155dc08c5fafd8cd353/ipc/src/lib.rs#L29C10-L29C25)
 enum. when executing a GoXLRCommand, you'll get one of two responses, either `Ok` as a string by itself, or an error:

@@ -10,7 +10,6 @@ sidebar_position: 100
 and control a TC-Helicon GoXLR or GoXLR Mini on Linux, MacOS and Windows.**
 
 ## GoXLR Utility
-
 ```md
 MIT License
 
@@ -38,7 +37,6 @@ SOFTWARE.
 ## 3rd Party
 
 ### Music Tribe Brands CA Ltd.
-
 ```md
 Copyright 2022 Music Tribe Brands CA Ltd.
 

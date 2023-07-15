@@ -5,7 +5,6 @@ sidebar_position: 2
 ---
 
 # Unix Socket / Named Pipe
-
 These should be your primary point of entry to the utility, even if you intend to use the HTTP channels for actual work.
 They will always be present, and active, so long as the GoXLR Utility is running.
 Users can turn off the web server component of the Daemon, or change the port,

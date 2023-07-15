@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Unix Socket Example
 
-## C#
+## .NET / C#
 ```csharp
 using System;
 using System.Buffers.Binary;

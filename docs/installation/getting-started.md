@@ -5,13 +5,11 @@ sidebar_position: 1
 ---
 
 # Getting Started
-
 **GoXLR Utility is an unofficial tool to configure
 and control a TC-Helicon GoXLR or GoXLR Mini on Linux, MacOS and Windows.**
 
 ## What you'll need
-
-Downloads are available on the [here](https://github.com/GoXLR-on-Linux/goxlr-utility/releases) under the 'Assets header'.<br/>
+Downloads are available [here](https://github.com/GoXLR-on-Linux/goxlr-utility/releases) under the 'Assets header'.<br/>
 We currently provide the following files:<br/>
 - `.exe` files, usable on Windows<sup>1</sup>
 - `.deb` files, usable on Debian based systems (Ubuntu, Mint, Pop!_OS, etc)

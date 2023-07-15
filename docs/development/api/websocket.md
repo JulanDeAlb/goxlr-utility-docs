@@ -31,7 +31,6 @@ And responses will follow a similar format:
 How to match up requests and responses is an exercise for the integrator, I use simple javascript promises in the Web UI.
 
 ## JSON Patching
-
 Whenever anything about the GoXLR changes (be it a physical interaction,
 or another app changing a setting), a [JSON Patch](https://jsonpatch.com/) message is emitted to any and all clients connected via websockets.
 
@@ -49,7 +48,6 @@ and updates an audio source in OBS whenever a specific channel volume changes (e
 it could be the basis for a 'VOD Track' implementation.
 
 ### A Patching Warning...
-
 When working in a UI, you'll need to be considerate of patch events for your own changes.
 When sending a change to the daemon, in addition to the general 'Ok' response, it will emit
 a 'Patch' event for that change, confirming it has been made. Depending on the type of interaction,

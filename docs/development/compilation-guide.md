@@ -7,7 +7,6 @@ sidebar_position: 1
 # Compilation Guide
 
 ## What you'll need
-
 - A Git Client (like pure [Git](https://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/))
 - Install [Rust](https://rustup.rs/)
 - For Linux:<br/>
@@ -15,7 +14,6 @@ sidebar_position: 1
   - Fedora: `sudo dnf install pkgconf-pkg-config dbus-devel pulseaudio-libs`
 
 ### TTS Feature
-
 The following packages will be needed if doing the 'Linux Speedrun' build,
 or if you require TTS capabilities inside the utility to report button presses.
 - Dependencies:<br/>
@@ -23,7 +21,6 @@ or if you require TTS capabilities inside the utility to report button presses.
   - Fedora: `sudo dnf install clang speech-dispatcher-devel`
 
 ## Getting the Code
-
 Firstly, we need to get the code from GitHub so we can build it. This is relatively simple,
 from a command line run: `git clone https://github.com/GoXLR-on-Linux/goxlr-utility.git` then `cd goxlr-utility`.
 
@@ -34,7 +31,6 @@ If there have been new commits, and you need to update your source tree, simply 
 ## Building
 
 ### Linux Speedrun
-
 If you're simply building because you run a distribution where a package for the utility isn't available,
 or want to run closer to bleeding edge, there's a script available that will build the utility and install
 all the components into their correct system locations the same way a package would. Simply make sure you have
@@ -42,7 +38,6 @@ the TTS dependencies and from the `goxlr-utility` source directory, run `ci/buil
 You'll be prompted for your password during this process while binaries, icons, and files are moved into the correct positions.
 
 ### Building by Hand
-
 Building by hand is relatively simple, you start off with a single command:
 
 `cargo build`
@@ -59,7 +54,6 @@ So for an optimised, TTS enabled release, you'd run:
 Once complete, you've got a build of the GoXLR Utility.
 
 ### Binaries
-
 The utility creates several binaries, these can be found in either `target/debug` or `target/release` depending
 on the build method above. The binaries are (Under Windows, these will have a `.exe` extension):
 
@@ -72,6 +66,5 @@ on the build method above. The binaries are (Under Windows, these will have a `.
 
 Regardless of your intent, with the exception of `goxlr-client` you should keep ALL of these files together, as they often depend on each other to function.
 
-### Done.
-
+### Done
 If you get here, you should have a build of the utility you can use, have fun and enjoy!

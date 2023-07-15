@@ -5,7 +5,6 @@ sidebar_position: 3
 ---
 
 # All possible Commands
-
 ```json lines
 {"id":1,"data":"GetStatus"}
 {"id":2,"data":{"Daemon":{"RecoverDefaults":"Icons"}}}

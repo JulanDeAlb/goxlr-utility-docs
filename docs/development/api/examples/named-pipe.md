@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Named Pipe Example
 
-## C#
+## .NET / C#
 ```csharp
 using System;
 using System.Buffers.Binary;

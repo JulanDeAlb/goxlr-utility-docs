@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'GoXLR Utility',
-  tagline: '',
+  tagline: 'Official Documentation Portal',
   favicon: 'img/goxlr-utiltiy.ico',
 
   // Set the production url of your site here

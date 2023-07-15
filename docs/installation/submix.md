@@ -1,6 +1,6 @@
 ---
 id: submix
-title: Submix installation (Coming Soon...)
+title: Submix installation
 sidebar_position: 2
 ---
 

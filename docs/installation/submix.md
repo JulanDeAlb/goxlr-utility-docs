@@ -1,17 +1,11 @@
 ---
 id: submix
-title: Submix
+title: Submix installation (Coming Soon...)
 sidebar_position: 2
 ---
 
 # Submix installation
-
-**Comming soon...**
-
-## What you'll need
-
-**Comming soon...**
+**Coming soon...**
 
 ## The UI
-
 ![image](/img/device/goxlr-utility-submix.png)

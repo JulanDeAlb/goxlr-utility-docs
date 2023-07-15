@@ -20,7 +20,9 @@ If you're writing in rust, you can utilize the [interprocess](https://crates.io/
 along with the utilities [ipc](https://github.com/GoXLR-on-Linux/goxlr-utility/tree/main/ipc) crate to automatically handle connections and marshaling data.
 Check out the [goxlr-client](https://github.com/GoXLR-on-Linux/goxlr-utility/blob/main/client/src/main.rs) for an example on how to do this.
 
-If you're a C# / Other Language user, there's a VERY basic example on handling this socket available [here](./examples/named-pipe.md).
+If you're a C# / Other Language user, there's a VERY basic example on handling this socket available here:<br/>
+- [Unix-Socket](./examples/unix-socket.md): Used by Unix based systems like Linux or MacOS.
+- [Named-Pipe](./examples/named-pipe.md): Used by Windows.
 
 If your intent is to use the web based interfaces, you'd want to perform a GetStatus,
 which will return a json structure detailing the complete device status.

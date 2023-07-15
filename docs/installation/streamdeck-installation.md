@@ -1,6 +1,6 @@
 ---
 id: streamdeck-installation
-title: Getting Started
+title: StreamDeck Plugin installation
 sidebar_position: 3
 ---
 

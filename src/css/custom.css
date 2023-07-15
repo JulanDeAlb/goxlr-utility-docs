@@ -15,19 +15,6 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-  --aa-text-color-rgb: 183,192,199 !important;
-  --aa-primary-color-rgb: 51, 94, 176 !important;
-  --aa-muted-color-rgb: 51, 94, 176 !important;
-  --aa-input-background-color-rgb: 0,3,9 !important;
-  --aa-background-color-rgb: 21,24,42 !important;
-  --aa-selected-color-rgb: 146,138,255 !important;
-  --aa-selected-color-alpha: 0.25 !important;
-  --aa-description-highlight-background-color-rgb: 0 255 255 !important;
-  --aa-description-highlight-background-color-alpha: 0.25 !important;
-  --aa-panel-shadow: inset 1px 1px 0 0 #2c2e40,0 3px 8px 0 #000309 !important;
-  --aa-scrollbar-track-background-color-rgb: 44,46,64 !important;
-  --aa-muted-color-alpha: 1 !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,19 +27,43 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
 
-  --aa-text-color-rgb: 183,192,199 !important;
-  --aa-primary-color-rgb: 51, 94, 176 !important;
-  --aa-muted-color-rgb: 51, 94, 176 !important;
-  --aa-input-background-color-rgb: 0,3,9 !important;
-  --aa-background-color-rgb: 21,24,42 !important;
-  --aa-selected-color-rgb: 146,138,255 !important;
-  --aa-selected-color-alpha: 0.25 !important;
-  --aa-description-highlight-background-color-rgb: 0 255 255 !important;
-  --aa-description-highlight-background-color-alpha: 0.25 !important;
-  --aa-panel-shadow: inset 1px 1px 0 0 #2c2e40,0 3px 8px 0 #000309 !important;
-  --aa-scrollbar-track-background-color-rgb: 44,46,64 !important;
-  --aa-muted-color-alpha: 1 !important;
+/* Search Bar */
+.dsla-search-wrapper, .aa-DetachedOverlay {
+
+  /* Search Text Placeholder Colour */
+  --aa-muted-color-rgb: 212, 213, 216 !important;
+  --aa-muted-color-alpha: 1.0 !important;
+
+  /* Text Colour */
+  --aa-text-color-rgb: 212, 213, 216 !important;
+  --aa-text-color-alpha: 1 !important;
+
+  /* Primary Colour (Icon, Border) */
+  --aa-primary-color-rgb: 212, 213, 216 !important;
+  --aa-primary-color-alpha: 0.2 !important;
+
+  /* Input Field Background Colour */
+  --aa-input-background-color-rgb: 3, 35, 32 !important;
+  --aa-input-background-color-alpha: 1 !important;
+
+  /* Overlay Background Colour */
+  --aa-background-color-rgb: 3, 35, 32 !important;
+  --aa-background-color-alpha: 1 !important;
+
+  /* Overlay Separator Colour */
+  --aa-panel-border-color-rgb: 3, 35, 32 !important;
+  --aa-panel-border-color-alpha: 1 !important;
+
+  /* Overlay overall Background Colour (like a blur effect on the background) */
+  --aa-overlay-color-rgb: 3, 35, 32 !important;
+  --aa-overlay-color-alpha: 0.2 !important;
+}
+
+/* Search Button inner padding */
+.aa-DetachedSearchButton{
+  padding: 0 calc(var(--aa-search-input-height)/4) 0 calc(var(--aa-search-input-height)/8) !important;
 }
 
 h1 {

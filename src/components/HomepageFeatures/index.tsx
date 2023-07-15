@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'Multidevice Support',
-        Svg: require('@site/static/img/goxlr-mini.svg').default,
+        Svg: require('@site/static/img/goxlr-fullsize.svg').default,
         description: (
             <>
                 You have 2 or more devices?<br/>
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     }, 
     {
         title: 'Easy to Use',
-        Svg: require('@site/static/img/goxlr-fullsize.svg').default,
+        Svg: require('@site/static/img/goxlr-utility.svg').default,
         description: (
             <>
                 The UI design was modelled around the official application in an attempt to provide a familiar interface for those moving from Windows to other platforms.
@@ -54,7 +54,7 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">

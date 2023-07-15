@@ -53,8 +53,8 @@
   --aa-background-color-alpha: 1 !important;
 
   /* Overlay Separator Colour */
-  --aa-panel-border-color-rgb: 3, 35, 32 !important;
-  --aa-panel-border-color-alpha: 1 !important;
+  --aa-panel-border-color-rgb: 212, 213, 216 !important;
+  --aa-panel-border-color-alpha: 0.3 !important;
 
   /* Overlay overall Background Colour (like a blur effect on the background) */
   --aa-overlay-color-rgb: 3, 35, 32 !important;

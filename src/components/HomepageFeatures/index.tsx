@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/goxlr-mini.svg').default,
         description: (
             <>
-                The Utility can completely controlled via API.<br/>
+                The Utility can be completely controlled via API.<br/>
                 The result: nearly endless possibilities.
             </>
         ),

@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// @ts-ignore
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'GoXLR Utility',
@@ -60,6 +61,8 @@ const config = {
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom'),
     require.resolve("@cmfcmf/docusaurus-search-local"),
+    // @ts-ignore
+    svgFix,
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -141,5 +144,32 @@ const config = {
       },
     }),
 };
+
+//Since SVGO cleans every id of a svg, we need to ensure it always adds a prefix.
+//Otherwise, the ids are colliding leading to unintended result's.
+function svgFix() {
+  return {
+    name: 'svg-fix',
+    configureWebpack(config) {
+      const svgRule = config.module.rules.find(rule => rule.test?.source === '\\.svg$');
+      if (svgRule) {
+        const {
+          oneOf: [
+            {
+              use: [
+                {
+                  options: {
+                    svgoConfig
+                  }
+                }
+              ]
+            }
+          ]
+        } = svgRule;
+        svgoConfig.plugins.push('prefixIds');
+      }
+    }
+  }
+}
 
 module.exports = config;

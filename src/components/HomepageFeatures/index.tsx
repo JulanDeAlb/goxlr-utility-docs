@@ -5,13 +5,13 @@ import styles from './styles.module.css';
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
+  description: React.JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
     {
         title: 'Multidevice Support',
-        Svg: require('@site/static/img/goxlr-fullsize.svg').default,
+        Svg: require('@site/static/img/goxlr-full.svg').default,
         description: (
             <>
                 You have 2 or more devices?<br/>

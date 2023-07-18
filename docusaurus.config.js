@@ -102,6 +102,10 @@ const config = {
             title: 'Docs',
             items: [
               {
+                label: 'FAQ',
+                to: '/docs/faq',
+              },
+              {
                 label: 'Installation',
                 to: '/docs/installation/getting-started',
               },

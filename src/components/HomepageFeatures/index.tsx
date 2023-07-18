@@ -34,7 +34,8 @@ const FeatureList: FeatureItem[] = [
         description: (
             <>
                 The Utility can be completely controlled via API.<br/>
-                The result: nearly endless possibilities.
+                The result: nearly ¹endless possibilities.<br/>
+                ¹<i><small>Only limited by Firmware and Driver.</small></i>
             </>
         ),
     },

@@ -88,7 +88,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/GoXLR-on-Linux/goxlr-utility',
             position: 'right',
             className: 'navbar-social-link navbar-github-logo',
             'aria-label': 'GitHub repository',

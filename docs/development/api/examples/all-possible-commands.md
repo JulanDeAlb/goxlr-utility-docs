@@ -139,4 +139,5 @@ sidebar_position: 3
 {"id":184,"data":{"Command":["SerialNumber",{"DeleteProfile":"Test"}]}}
 {"id":178,"data":{"Command":["SerialNumber",{"SetShutdownCommands":[{"SetSwearButtonVolume":0}]}]}}
 {"id":179,"data":{"Command":["SerialNumber",{"SetShutdownCommands":[]}]}}
+{"id":180,"data":{"GetMicLevel":"SerialNumber"}}
 ```
